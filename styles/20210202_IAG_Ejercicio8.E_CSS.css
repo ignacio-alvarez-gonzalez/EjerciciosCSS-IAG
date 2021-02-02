@@ -1,0 +1,10 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parrafo1 {
+    border: 1mm;
+    border-color: red;
+    border-style: dotted;
+    font-style: italic;
+}
