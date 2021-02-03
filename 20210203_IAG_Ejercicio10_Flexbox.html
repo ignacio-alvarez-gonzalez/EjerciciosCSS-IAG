@@ -17,6 +17,16 @@
                 border-color: orange;
                 border-style: solid;
             }
+            a:link {
+                text-decoration: none;
+            }
+            a:visited {
+                color: grey;
+            }
+            a:hover {
+                color: black;
+            }
+            
         </style>
     </head>
     <body>
@@ -27,18 +37,29 @@
             <div class="caja">Contacto</div>
         </div>
         <!-- también se puede hacer con listas -->
-        <ul>
+        <!-- <ul>
             <li>Home</li>
             <li>Blog</li>
             <li>Proyectos</li>
             <li>Contacto</li>
-        </ul>
-        <h2>Edificio Jaraguá, Sao Paulo. Paulo Mendes da Rocha, 1984-1988.</h2>
-        <div class="imagen1">
-            <p>Croquis de sección.</p>
-        </div>
-        <div class="imagen2">
-            <p>Croquis de planta.</p>
+        </ul> -->
+        <div class="principal">
+            <div class="menu-vertical">
+                <h3>Enlaces:</h3>
+                <a class="enlace" target="_blank" href="https://twitter.com/?lang=es">Twitter</a>
+                <a class="enlace" target="_blank" href="https://www.twitch.tv/">Twitch</a>
+                <a class="enlace" target="_blank" href="https://www.youtube.com/?hl=es&gl=ES">YouTube</a>
+                <a class="enlace" target="_blank" href="https://www.google.es/">Google</a>
+            </div>
+            <div class="contenido">
+                <h3>Edificio Jaraguá, Sao Paulo. Paulo Mendes da Rocha, 1984-1988.</h3>
+                <div class="imagen1">
+                    <p style="background-color: white;">Croquis de sección.</p>
+                </div>
+                <div class="imagen2">
+                    <p style="background-color: white;">Croquis de planta.</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
