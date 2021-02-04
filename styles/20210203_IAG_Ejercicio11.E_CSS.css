@@ -31,7 +31,13 @@ h3 {
     margin: 10px;
 }
 
-
+.imagen {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("https://assets.arquitecturaviva.com/assets/uploads/obras/39856/av_medium__av_115721.jpeg?h=53f6d444");
+    margin: 10px;
+}
 
 .info {
     background-color: grey;
@@ -48,6 +54,9 @@ h3 {
         display: flex;
         flex-direction: column;
     }
+    .imagen {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -58,6 +67,15 @@ h3 {
     .contenido {
         display: flex;
         flex-direction: row;
+    }
+    .imagen {
+        display: block;
+        width: 500px;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
     } 
 }
 
